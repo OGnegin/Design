@@ -175,6 +175,11 @@ cursor: pointer;
 	top: 40%;
 	border: none;
 }
+.main_one {
+	background-color: #131313; 
+	height: 1074px; 
+	color: #FFFFFF;
+}
 
 .main_twoo {
 	height: 1466px;
@@ -448,4 +453,160 @@ input {
 	display: flex;
 	flex-direction: column;
 
+}
+@media screen and (max-width: 375px) {
+	.navigation__item {
+		display: none;
+	}
+	.navigation__button {
+		display: none;
+	}
+	.navigation__phone {
+		font-size: 11px;
+	}
+	.navigation__logo {
+		font-size: 11px;
+	}
+	.navigation {
+		display: flex;
+		justify-content: space-between;
+	}
+	.text {
+		display: flex;
+		flex-direction: column;
+		font-size: 11px;
+	}
+	.about__buttons {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	.navigation_flex {
+		display: none;
+	}
+	.content_text {
+		display: flex;
+		flex-direction: column;
+		font-size: 11px;
+		margin-left: 13%;
+	}
+	.png {
+		width: 340px;
+		height: 241.355px;
+		position: relative;
+		bottom: 200px;
+	}
+	.Content_main_one {
+		display: flex;
+		flex-direction: column;
+	}
+	.marker {
+		display: none;
+	}
+	.services {
+		position: relative;
+		top: 250px;
+	}
+	.remont {
+		width: 340px;
+		height: 207px;
+	}
+	.remont img {
+		width: 340px;
+		height: 207px;
+	}
+	.play {
+		width: 37px;
+		height: 37px;
+	}
+	.main_end {
+		margin-left: -20%;
+	}
+	.user {
+		display: flex;
+		flex-direction: column;
+		margin-left: 28%;
+		font-size: 11px;
+	}
+	.text_main_twoo {
+		font-size: 11px;
+		position: relative;
+		right: 10%;
+	}
+	.input_main {
+		position: relative;
+		bottom: 60px;
+		font-size: 13px;
+		right: 45px;
+	}
+	.user button {
+		position: relative;
+		top: 60px;
+		font-size: 11px;
+	}
+	.content_text img {
+		margin-left: 10%;
+	}
+	.types_of_repair {
+		position: relative;
+		right: 8%;
+	}
+	.instruments {
+		position: relative;
+		right: 40px;
+	}
+	.footer_one {
+		display: none;
+	}
+	.rooms {
+		display: flex;
+		flex-direction: column;
+	}
+	.footer_two {
+		display: none;
+	}
+	.footer_ome_one {
+		margin-top: 1500px;
+	}
+	.worker {
+		display: none;
+	}
+	.center {
+		display: none;
+	}
+	.question {
+		display: flex;
+		flex-direction: column;
+		margin-left: -20%;
+	}
+	.inputs {
+		display: flex;
+		flex-direction: column;
+		margin-left: 5%;
+	}
+	.one {
+		margin-left: -18%;
+	}
+	.checkbox {
+		margin-left: -20%;
+	}
+	.question h6 {
+		margin-left: -20%;
+	}
+	iframe {
+		order: -1;
+		width: 340px;
+		height: 255px;
+		margin-left: -27%;
+	}
+	.content_end p {
+		margin-top: 15%;
+		margin-left: -74%;
+	}
+	.button_questions {
+		margin-left: -20%;
+	}
+	.nav_end {
+		display: none;
+	}
 }
